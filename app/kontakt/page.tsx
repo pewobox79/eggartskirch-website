@@ -1,6 +1,10 @@
-const Contact =()=>{
+import ContactPage from "@/pages/ContactPage";
+import {getContentByPage} from "@/utils/helper/contentHelper";
 
-    return <h1>Kontakt</h1>
+const Contact =async ()=>{
+
+    const content = await getContentByPage("contact");
+    return <ContactPage content={content}/>
 }
 
 export default Contact

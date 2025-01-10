@@ -1,6 +1,10 @@
-const Booking =()=>{
+import RequestPage from "@/pages/RequestPage";
+import {getContentByPage} from "@/utils/helper/contentHelper";
 
-    return <h1>Anfragen</h1>
+const Booking =async ()=>{
+
+    const content = await getContentByPage("requests")
+    return <RequestPage content={content}/>
 }
 
 export default Booking

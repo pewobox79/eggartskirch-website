@@ -9,7 +9,7 @@ const Footer =()=>{
 
             <Link href={"/impressum"}>Impressum</Link>
 
-            <p className={"copyrightText"}>&copy; { year } ST. ISIDOR PFARRKIRCHE. All Rights Reserved.</p>
+            <p className={"copyrightText"}>&copy; { year } Seelsorgeeinheit Ravensburg West. All Rights Reserved.</p>
             <Link href={"/datenschutz"}>Datenschutzerklärung</Link></div>
 
     </footer>

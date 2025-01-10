@@ -38,8 +38,6 @@ const Consent = () => {
         handleClose()
     }
 
-    console.log("content", content)
-
     return <div className={ styles.consentWrapper } style={ {display: modal.status.consent ? "flex" : "none"} }>
 
         <div className={ styles.consentInner }>

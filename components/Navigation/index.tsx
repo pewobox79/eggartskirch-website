@@ -2,7 +2,7 @@ import NavItem from "@/components/Navigation/components/NavItem";
 import styles from "@/styles/Navigation.module.css"
 import Image from "next/image";
 import Link from "next/link";
-import logo from "@/assets/logo/segenskirche_eggartskirch_logo.png"
+import logo from "@/assets/logo/segenskirche_eggartskirch_logo_mobile.png"
 import {navData} from "@/utils/static/navData";
 const Navigation =()=>{
 

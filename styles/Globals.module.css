@@ -2,7 +2,7 @@
     width: 100%;
     padding: 30px 0;
     font-family: var(--font-bad-script);
-    font-size: 2rem;
+    font-size: 1.7rem;
     color: var(--secondaryColor)
 }
 
@@ -10,16 +10,21 @@
 
     padding: 10px 0 50px 30px;
     font-family: var(--font-pt-sans);
-    font-size: 2rem;
+    font-size: 1.7rem;
     color: var(--secondaryColor)
+}
+
+.subTitleWrapper > a:hover{
+    color: var(--thirdColor);
+
 }
 
 .bodyContentWrapper{
 
     width: 100%;
     word-break: break-word;
-    text-align: center;
-    font-size: 1.7rem;
+    text-align: left;
+    font-size: 1.4rem;
     height: auto;
     padding-bottom: 70px;
 }
@@ -35,10 +40,17 @@
     width: 300px;
     color: var(--thirdColor);
     font-size: 1.3rem;
-    font-weight: bold;
+    font-weight: bolder;
     text-align: center;
     letter-spacing: 2px;
+    display: block;
 }
+
+.contactButton:hover{
+    background-color: var(--buttonBackgroundprimary);
+    color: var(--secondaryColor);
+}
+
 @media screen and (min-width: 768px){
 
     .bodyContentWrapper {

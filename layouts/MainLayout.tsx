@@ -2,7 +2,7 @@ import styles from '@/styles/Layouts.module.css'
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import verticalCollage from "@/assets/images/segenskirche_eggartskirch_collage.png";
-import horizontalCollage from "@/assets/images/segenskirche_eggartskirch_collage_h.png";
+import horizontalCollage from "@/assets/images/segenskirche_eggartskirch_collage_big.png";
 
 const MainLayout = ({children}: { children: React.ReactNode | React.ReactElement | React.ReactElement[] }) => {
 
@@ -11,7 +11,7 @@ const MainLayout = ({children}: { children: React.ReactNode | React.ReactElement
         backgroundSize: "cover", // Ensures the image covers the entire container
         backgroundPosition: "center", // Centers the image
         backgroundRepeat: "no-repeat", // Does not repeat the image
-        width: "100%", // Full viewport width
+        width: "100%",// Full viewport width
         height: "100vh", // Full viewport height
         margin: "auto"
     };

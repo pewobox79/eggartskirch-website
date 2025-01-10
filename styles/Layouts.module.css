@@ -1,0 +1,82 @@
+.mainLayoutWrapper {
+
+    display: flex;
+    max-width: 1500px  ;
+    flex-direction: column;
+    margin: auto;
+
+}
+
+
+
+.graphicSection {
+    width: 100%;
+    height: 30dvh;
+}
+
+.mainContentWrapper {
+    width: 100%;
+    height: 80dvh;
+}
+
+.mainContentInner{
+
+    display: flex;
+    flex-direction: column;
+    height: 100dvh;
+    margin: auto;
+
+
+}
+
+.mainInner{
+
+    min-height: 450px;
+    height: auto;
+
+    width: 100%;
+    padding: 10px
+}
+
+.verticalImage{
+    display:none
+}
+
+.horizontalImage{
+    display:block;
+}
+@media screen and (min-width:768px){
+
+    .mainLayoutWrapper {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center
+    }
+    .graphicSection {
+        width: 45%;
+        min-height:100dvh;
+    }
+
+    .mainContentWrapper {
+        min-height:100dvh;
+    }
+
+    .mainContent {
+        width: 55%;
+        border: 1px solid var(--secondaryColor);
+        min-height:100dvh;
+    }
+
+    .mainInner {
+        height: 50dvh;
+    }
+
+    .verticalImage{
+        display:block
+    }
+
+    .horizontalImage{
+        display:none;
+    }
+
+}

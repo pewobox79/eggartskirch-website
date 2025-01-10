@@ -1,0 +1,57 @@
+.navigationWrapper {
+    width: 100%;
+    background-color: var(--buttonBackgroundprimary);
+}
+
+.navInner {
+
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    height: auto;
+    width: 100%;
+    color: var(--secondaryColor);
+    font-weight: bold;
+    font-size:0.6rem;
+    text-align: center;
+    text-decoration: none;
+    border-top:2px solid var(--buttonBackgroundprimary)
+}
+
+.activeNavItem{
+
+    border-top: 2px solid var(--secondaryColor)
+}
+.logoMobile {
+    width: 90px}
+
+
+
+
+@media screen and (min-width: 768px) {
+
+
+
+    .navInner{
+        justify-content: flex-start;
+        max-width: 500px
+    }
+
+    .navItem{
+        font-size:1.2rem
+    }
+    .navItem:first-child {
+        display: none
+    }
+
+    .logoMobile {
+        display: none}
+
+}

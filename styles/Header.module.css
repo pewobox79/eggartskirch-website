@@ -1,0 +1,32 @@
+.headerWrapper {
+
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    height: auto
+}
+
+.headerImage {
+    display: none;
+}
+
+
+.headerInner {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+}
+@media screen and (min-width: 768px){
+
+    .headerWrapper {
+        min-height: 250px;
+        position: relative;
+    }
+    .headerImage {
+        display: block;
+    }
+
+
+
+}

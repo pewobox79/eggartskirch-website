@@ -1,7 +1,7 @@
 import styles from '@/styles/Globals.module.css'
-const BodyContent =({data})=>{
+const BodyContent =({data}:{data: {text:string}[]})=>{
 
-    const bodyContent = data.map(body => {
+    const bodyContent = data?.map(body => {
         return <p key={body.text}>{body.text}</p>
     })
 

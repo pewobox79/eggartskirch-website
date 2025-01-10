@@ -2,7 +2,7 @@ import styles from '@/styles/Globals.module.css'
 
 const SubTitle =({data}:{data: {text: string}[]})=>{
 
-    const ListOfParagraphs = data.map(subtitle=>{
+    const ListOfParagraphs = data?.map(subtitle=>{
 
         return <p key={subtitle.text}>{subtitle.text}</p>
     })

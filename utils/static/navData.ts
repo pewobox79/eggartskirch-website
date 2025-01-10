@@ -4,8 +4,8 @@ export const navData = [
         link: "/",
         id: "32423"
     },{
-        title: "kalender",
-        link: "/kalender",
+        title: "termine",
+        link: "/termine",
         id: "342342352"
     },{
         title: "buchen",

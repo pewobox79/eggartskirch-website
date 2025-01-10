@@ -14,7 +14,8 @@
     color: var(--secondaryColor)
 }
 
-.subTitleWrapper > a:hover{
+.subTitleWrapper > a:hover,
+.textLink:hover{
     color: var(--thirdColor);
 
 }

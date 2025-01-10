@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import verticalCollage from "@/assets/images/segenskirche_eggartskirch_collage.png";
 import horizontalCollage from "@/assets/images/segenskirche_eggartskirch_collage_big.png";
+import Consent from "@/components/Consent";
 
 const MainLayout = ({children}: { children: React.ReactNode | React.ReactElement | React.ReactElement[] }) => {
 
@@ -27,7 +28,7 @@ const MainLayout = ({children}: { children: React.ReactNode | React.ReactElement
     }
 
 
-    return <div className={ styles.mainLayoutWrapper }>
+    return <><div className={ styles.mainLayoutWrapper }>
 
         <section className={ styles.graphicSection }>
 
@@ -50,6 +51,8 @@ const MainLayout = ({children}: { children: React.ReactNode | React.ReactElement
 
         </main>
     </div>
+    <Consent/></>
 }
+
 
 export default MainLayout;

@@ -3,7 +3,7 @@ import {getContentByPage} from "@/utils/helper/contentHelper";
 
 const Booking =async ()=>{
 
-    const content = await getContentByPage("requests")
+    const content = await getContentByPage("requests");
     return <RequestPage content={content}/>
 }
 

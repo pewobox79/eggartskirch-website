@@ -1,6 +1,7 @@
 import jsonData from '../static/contentData.json';
 
-export const getContentByPage= (contentType:"homepage" |"dates" |"requests" |"contact")=>{
+type ContentTypes = "homepage" | "dates" | "requests" | "contact" | "consent";
+export function getContentByPage(contentType: ContentTypes) {
 
     return jsonData[contentType]
 

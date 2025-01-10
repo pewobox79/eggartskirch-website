@@ -32,7 +32,6 @@
       }
     ],
     "body": [
-
       {
         "text": "Gemeinsam mit Ihnen wollen wir unsere erste Segensfeier in der Segenskirche Eggartskirch feiern. Anschließend stoßen wir bei geselligem Zusammensein an.\nWir freuen uns auf Sie!"
       }
@@ -49,7 +48,6 @@
       }
     ],
     "body": [
-
       {
         "text": "Wir bitten um noch ein bisschen Geduld ...\nIn Kürze können Sie hier die Preisliste, Hausordnung und den Mietvertrag einsehen."
       },
@@ -66,7 +64,6 @@
       }
     ],
     "body": [
-
       {
         "text": "Ansprechpartnerin: Ulrike Mohr"
       },
@@ -78,6 +75,22 @@
       },
       {
         "text": "Die Segenskirche Eggartskirch gehört\nzur Seelsorgeeinheit Ravensburg West:\nPfarramt Dreifaltigkeit\nSchwalbenweg 5, 88213 Ravensburg"
+      }
+    ]
+  },
+  "consent": {
+    "title": "",
+    "subTitle": [
+      {
+        "text": ""
+      }
+    ],
+    "body": [
+      {
+        "text": "Diese Seite verwendet keine Cookies und sonstige Analyse Tools."
+      },
+      {
+        "text": "Bitte lesen Sie auch unsere Datenschutzvereinbarung für nähere Informationen."
       }
     ]
   }

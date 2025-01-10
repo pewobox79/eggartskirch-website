@@ -1,0 +1,65 @@
+.consentWrapper{
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--buttonBackgroundprimary);
+    z-index:900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.consentInner{
+
+    width: 70%;
+    min-height: 40dvh;
+    height: auto;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px
+}
+
+
+.consentButtons{
+
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.actionButtons {
+        margin: 30px 20px;
+        padding: 0 10px;
+        background-color: var(--buttonBackgroundsecondary);
+        width: 300px;
+        color: var(--thirdColor);
+        font-size: 1.3rem;
+        font-weight: bolder;
+        text-align: center;
+        letter-spacing: 2px;
+        display: block;
+    }
+
+.actionButtons:hover{
+        background-color: var(--buttonBackgroundprimary);
+        color: var(--secondaryColor);
+    cursor: pointer;
+    }
+
+
+@media screen and (min-width: 768px){
+
+    .consentInner {
+        width: 80%;
+       max-width: 900px;
+    }
+}

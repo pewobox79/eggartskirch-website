@@ -8,8 +8,8 @@ export const navData = [
         link: "/termine",
         id: "342342352"
     },{
-        title: "buchen",
-        link: "/buchen",
+        title: "anfragen",
+        link: "/anfragen",
         id: "45754634"
     },{
         title: "kontakt",

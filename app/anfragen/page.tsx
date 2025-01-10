@@ -1,6 +1,6 @@
 const Booking =()=>{
 
-    return <h1>Buchen</h1>
+    return <h1>Anfragen</h1>
 }
 
 export default Booking

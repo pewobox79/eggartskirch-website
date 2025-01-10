@@ -19,10 +19,11 @@
     width: 100%;
     color: var(--secondaryColor);
     font-weight: bold;
-    font-size:0.6rem;
+    font-size:0.8rem;
     text-align: center;
     text-decoration: none;
-    border-top:2px solid var(--buttonBackgroundprimary)
+    border-top:2px solid var(--buttonBackgroundprimary);
+    letter-spacing: 2px;
 }
 
 .activeNavItem{

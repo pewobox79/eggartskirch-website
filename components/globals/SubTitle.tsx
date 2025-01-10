@@ -6,7 +6,7 @@ const SubTitle =({data}:{data: {text: string}[]})=>{
 
         if(subtitle.text.includes("@")){
 
-            return <a href={`mailto:${subtitle.text}`}>{subtitle.text}</a>
+            return <a key={subtitle.text} href={`mailto:${subtitle.text}`}>{subtitle.text}</a>
         }else{
             return <p key={subtitle.text}>{subtitle.text}</p>
 

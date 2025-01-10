@@ -4,10 +4,10 @@ import Footer from "@/components/Footer";
 import verticalCollage from "@/assets/images/segenskirche_eggartskirch_collage.png";
 import horizontalCollage from "@/assets/images/segenskirche_eggartskirch_collage_h.png";
 
-const MainLayout = ({children}:{children: React.ReactNode |React.ReactElement |React.ReactElement[]}) => {
+const MainLayout = ({children}: { children: React.ReactNode | React.ReactElement | React.ReactElement[] }) => {
 
     let verticalBackgroundStyle = {
-        backgroundImage: `url(${verticalCollage?.src})`,
+        backgroundImage: `url(${ verticalCollage?.src })`,
         backgroundSize: "cover", // Ensures the image covers the entire container
         backgroundPosition: "center", // Centers the image
         backgroundRepeat: "no-repeat", // Does not repeat the image
@@ -17,7 +17,7 @@ const MainLayout = ({children}:{children: React.ReactNode |React.ReactElement |R
     };
 
     let horizontalBackgroundStyle = {
-        backgroundImage: `url(${horizontalCollage?.src})`,
+        backgroundImage: `url(${ horizontalCollage?.src })`,
         backgroundSize: "cover", // Ensures the image covers the entire container
         backgroundPosition: "center", // Centers the image
         backgroundRepeat: "no-repeat", // Repeats the image
@@ -31,18 +31,20 @@ const MainLayout = ({children}:{children: React.ReactNode |React.ReactElement |R
 
         <section className={ styles.graphicSection }>
 
-            <div className={styles.verticalImage} style={verticalBackgroundStyle}></div>
-            <div className={styles.horizontalImage} style={horizontalBackgroundStyle}></div>
+            <div className={ styles.verticalImage } style={ verticalBackgroundStyle }></div>
+            <div className={ styles.horizontalImage } style={ horizontalBackgroundStyle }></div>
         </section>
 
-        <main className={styles.mainContentWrapper}>
+        <main className={ styles.mainContentWrapper }>
 
-            <div className={styles.mainContentInner} >
-                <Header/>
-                <div className={styles.mainInner}>
-            { children }
+            <div className={ styles.mainContentInner }>
+                <div className={ styles.mainInner }>
+                    <Header/>
+                    <div className={ styles.mainContent }>
+                        { children }
                     </div>
-                <Footer/>
+                    <Footer/>
+                </div>
             </div>
 
 

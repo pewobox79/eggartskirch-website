@@ -3,7 +3,9 @@
     width: 100%;
     position: fixed;
     bottom: 0;
-    height: auto
+    height: auto;
+    z-index:800;
+    background-color: white;
 }
 
 .headerImage {

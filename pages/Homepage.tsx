@@ -1,6 +1,17 @@
-const Homepage =()=>{
+import Headline from "@/components/globals/Headline";
+import SubTitle from "@/components/globals/SubTitle";
+import BodyContent from "@/components/globals/BodyContent";
 
-    return <h1>Homepage</h1>
+
+const Homepage =({content})=>{
+
+    return <>
+
+            <Headline text={content.title}/>
+            <SubTitle data={content.subTitle}/>
+            <BodyContent data={content.body}/>
+
+    </>
 }
 
 export default Homepage

@@ -48,10 +48,32 @@ a {
 }
 
 .copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   width: 100%;
+  padding: 0 10px;
   position: absolute;
   top: 0;
   left: 0;
+
+}
+
+.copyright > a{
+margin: 0 20px;
+  text-align: center;
+}
+
+.copyright > a:hover{
+  color: var(--thirdColor);
+}
+
+@media screen and (min-width: 450px){
+  .copyright{
+    flex-direction: row;
+    justify-content: center;
+  }
 
 }
 
@@ -59,8 +81,11 @@ a {
 
   .copyright {
     position: relative;
+    justify-content: space-between;
   }
 }
+
+
 
 @media (prefers-color-scheme: dark) {
   html {

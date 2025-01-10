@@ -4,7 +4,14 @@ const SubTitle =({data}:{data: {text: string}[]})=>{
 
     const ListOfParagraphs = data?.map(subtitle=>{
 
-        return <p key={subtitle.text}>{subtitle.text}</p>
+        if(subtitle.text.includes("@")){
+
+            return <a href={`mailto:${subtitle.text}`}>{subtitle.text}</a>
+        }else{
+            return <p key={subtitle.text}>{subtitle.text}</p>
+
+        }
+
     })
 
     return <div className={styles.subTitleWrapper}>

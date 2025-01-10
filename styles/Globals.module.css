@@ -28,6 +28,17 @@
     padding: 10px 0
 }
 
+.contactButton{
+ margin: 30px 0;
+    padding: 0 10px;
+    background-color: var(--buttonBackgroundsecondary);
+    width: 300px;
+    color: var(--thirdColor);
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 2px;
+}
 @media screen and (min-width: 768px){
 
     .bodyContentWrapper {

@@ -44,7 +44,7 @@ const Consent = () => {
 
             <Headline text={ "Consent" } style={ {textAlign: "center"} }/>
             <BodyContent data={ content?.body } style={ {textAlign: "center"} }/>
-            <ContactLink href={ "/datenschutz" } text={ "Datenschutzerklärung" } type={ "link" }/>
+            <ContactLink href={ "/datenschutz" } text={ "Datenschutzerklärung" } type={ "link" } target={"_blank"}/>
 
 
             < div className={ styles.consentButtons }>

@@ -6,13 +6,13 @@ import EmailContact from "@/components/globals/EmailContact";
 
 
 const Homepage =({content}:{content: {title: string, subTitle: {text:string}[], body: {text:string}[]}})=>{
-    return <>
+    return <div style={{ paddingBottom: "50px"}}>
             <Headline text={content?.title}/>
             <SubTitle data={content?.subTitle}/>
             <BodyContent data={content?.body}/>
-        <EmailContact/>
+            <EmailContact/>
 
-    </>
+    </div>
 }
 
 export default Homepage

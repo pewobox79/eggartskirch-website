@@ -3,7 +3,7 @@ import styles from "@/styles/Globals.module.css";
 const Datenschutz =()=>{
 
     return <div className={ styles.bodyContentWrapper }>
-        <h1>Datenschutz&shy;erkl&auml;rung</h1>
+        <h2>Datenschutz&shy;erkl&auml;rung</h2>
         <h2>1. Datenschutz auf einen Blick</h2>
         <h3>Allgemeine Hinweise</h3> <p>Die folgenden Hinweise geben einen einfachen &Uuml;berblick dar&uuml;ber, was
         mit Ihren personenbezogenen Daten passiert, wenn Sie diese Website besuchen. Personenbezogene Daten sind alle

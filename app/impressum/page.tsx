@@ -3,7 +3,7 @@ import styles from '@/styles/Globals.module.css'
 const Imprint =()=>{
 
     return <div className={styles.bodyContentWrapper}>
-        <h1>Impressum</h1>
+        <h2>Impressum</h2>
 
         <p>Ulrike Mohr<br/>
             Seelsorgeeinheit Ravensburg West: Pfarramt Dreifaltigkeit<br/>
@@ -16,7 +16,8 @@ const Imprint =()=>{
 
         <h2>Redaktionell verantwortlich</h2>
         <p>Ulrike Mohr<br/>
-            ADDRESSE NOCH EINGEBEN</p>
+            Rolgenmoos 15<br/>
+            88263 Horgenzell</p>
 
         <h2>Verbraucher&shy;streit&shy;beilegung/Universal&shy;schlichtungs&shy;stelle</h2>
         <p>Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle

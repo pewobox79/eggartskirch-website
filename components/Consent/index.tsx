@@ -1,11 +1,10 @@
 'use client'
 import styles from '@/styles/Consent.module.css'
-import Headline from "@/components/globals/Headline";
+
 import {useEffect, useState} from "react";
 import {useModalOpen} from "@/utils/store/useModalOpen";
 import BodyContent from "@/components/globals/BodyContent";
 import {getContentByPage} from "@/utils/helper/contentHelper";
-import ContactLink from "@/components/globals/ContactLink";
 import {useLocalStorage} from "@/hooks/useLocalStorage";
 
 const Consent = () => {
@@ -42,9 +41,9 @@ const Consent = () => {
 
         <div className={ styles.consentInner }>
 
-            <Headline text={ "Consent" } style={ {textAlign: "center"} }/>
+            {/*<Headline text={ "Consent" } style={ {textAlign: "center"} }/>*/}
             <BodyContent data={ content?.body } style={ {textAlign: "center"} }/>
-            <ContactLink href={ "/datenschutz" } text={ "Datenschutzerklärung" } type={ "link" } target={"_blank"}/>
+            {/*<ContactLink href={ "/datenschutz" } text={ "Datenschutzerklärung" } type={ "link" } target={"_blank"}/>*/}
 
 
             < div className={ styles.consentButtons }>

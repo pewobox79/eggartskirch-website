@@ -14,7 +14,7 @@
         "text": "Unser Team bietet Segnungen von Menschen in jedem Alter an: Ob Taufe, Hochzeit, Segnungen von Paaren, auch von gleichgeschlechtlichen Paaren. Unser Fokus liegt nicht nur auf traditionellen Feiern: Wir möchten Sie auch in besonderen Momenten bestärken - sei es bei einer Einschulung, vor Prüfungen, großen Reisen, nach einer glücklichen Geburt oder in schwierigen Zeiten wie bei einer Krankheit oder Trennung."
       },
       {
-        "text": "Zusammen gestalten wir Ihre ganz individuelle Segensfeier – wir heißen alle Menschen willkommen,die sich nach göttlicher Berührung sehnen."
+        "text": "Zusammen gestalten wir Ihre ganz individuelle Segensfeier – wir heißen alle Menschen willkommen, die sich nach göttlicher Berührung sehnen."
       },
       {
         "text": "In Eggartskirch bieten wir den perfekten Rahmen für Ihre Feierlichkeit! Nach der Zeremonie ist ein Stehempfang möglich, auch bei schlechtem Wetter! Auf Wunsch kümmern wir uns um die Getränke und Snacks beim Stehempfang und auch um Ihren Blumenschmuck."
@@ -33,7 +33,7 @@
     ],
     "body": [
       {
-        "text": "Gemeinsam mit Ihnen wollen wir unsere erste Segensfeier in der Segenskirche Eggartskirch feiern. Anschließend stoßen wir bei geselligem Zusammensein an.\nWir freuen uns auf Sie!"
+        "text": "Gemeinsam mit Ihnen wollen wir unsere erste Segensfeier in der Segenskirche Eggartskirch feiern. Anschließend stoßen wir bei geselligem Zusammensein an. Wir freuen uns auf Sie!"
       }
     ]
   },
@@ -49,7 +49,7 @@
     ],
     "body": [
       {
-        "text": "Wir bitten um noch ein bisschen Geduld ...\nIn Kürze können Sie hier die Preisliste, Hausordnung und den Mietvertrag einsehen."
+        "text": "Wir bitten um noch ein bisschen Geduld ... In Kürze können Sie hier die Preisliste, die Hausordnung und den Mietvertrag einsehen."
       },
       {
         "text": "Gerne können Sie uns aber schon direkt eine Mail mit Ihrer Anfrage schicken:"
@@ -65,16 +65,69 @@
     ],
     "body": [
       {
-        "text": "Ansprechpartnerin: Ulrike Mohr"
+        "text": "Ansprechpartnerin:"
       },
       {
-        "text": "ST. ISIDOR PFARRKIRCHE"
+        "text": "Kirchengemeinde Eggartskirch"
       },
       {
-        "text": "Eggartskirch 6, 88213 Ravensburg"
+        "text": "Urlike Mohr"
       },
       {
-        "text": "Die Segenskirche Eggartskirch gehört\nzur Seelsorgeeinheit Ravensburg West:\nPfarramt Dreifaltigkeit\nSchwalbenweg 5, 88213 Ravensburg"
+        "text": "Rolgenmoss 15"
+      },
+      {
+        "text": "88263 Horgenzell"
+      }
+    ]
+  },
+  "location": {
+    "title": "",
+    "subTitle": [
+      {
+        "text": ""
+      }
+    ],
+    "body": [
+      {
+        "text": "Veranstaltungsort:"
+      },
+      {
+        "text": "Pfarrkirche St. Isidor"
+      },
+      {
+        "text": "Eggartskirch 6"
+      },
+      {
+        "text": "88213 Ravensburg"
+      }
+    ]
+  },
+  "owner": {
+    "title": "",
+    "subTitle": [
+      {
+        "text": ""
+      }
+    ],
+    "body": [
+      {
+        "text": "Die Kirchengemeinde Eggartskirch ist Teil der Seelsorgeeinheit Ravensburg West:"
+      },
+      {
+        "text": "Pfarramt Dreifaltigkeit"
+      },
+      {
+        "text": "Schwalbenweg 5"
+      },
+      {
+        "text": "88213 Ravensburg"
+      },
+      {
+        "text": "Tel: 0751-791 2430"
+      },
+      {
+        "text": "info-dreifaltigkeit.rv@drs.de"
       }
     ]
   },

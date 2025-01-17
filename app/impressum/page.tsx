@@ -1,17 +1,18 @@
 import styles from '@/styles/Globals.module.css'
 
-const Imprint =()=>{
+const Imprint = () => {
 
-    return <div className={styles.bodyContentWrapper}>
+    return <div className={ styles.bodyContentWrapper }>
         <h2>Impressum</h2>
 
-        <p>Ulrike Mohr<br/>
-            Seelsorgeeinheit Ravensburg West: Pfarramt Dreifaltigkeit<br/>
-            Eggartskirch 6<br/>
-            88213 Ravensburg</p>
+        <p>Kirchengemeinde Eggartskirch<br/>
+            vertreten durch<br/>
+            Josef Vogler<br/>
+            Rolgenmoos 10/1<br/>
+            88263 Horgenzell</p>
 
         <h2>Kontakt</h2>
-        <p>Telefon: +49 (0) 751 791 24 30<br/>
+        <p>Telefon: +49 1523 66 323 44<br/>
             E-Mail: info@segenskirche-eggartskirch.de</p>
 
         <h2>Redaktionell verantwortlich</h2>

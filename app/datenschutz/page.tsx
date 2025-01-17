@@ -63,15 +63,13 @@ const Datenschutz =()=>{
         Sicherheitsl&uuml;cken aufweisen kann. Ein l&uuml;ckenloser Schutz der Daten vor dem Zugriff durch Dritte ist
         nicht m&ouml;glich.</p>
         <h3>Hinweis zur verantwortlichen Stelle</h3> <p>Die verantwortliche Stelle f&uuml;r die Datenverarbeitung auf
-        dieser Website ist:</p> <p>ST. ISIDOR PFARRKIRCHE<br/>
-        <br/>
-        Eggartskirch 6, 88213 Ravensburg<br/>
-        <br/>
-        Die Segenskirche Eggartskirch geh&ouml;rt zur Seelsorgeeinheit Ravensburg West: Pfarramt Dreifaltigkeit
-        Schwalbenweg 5, 88213 Ravensburg</p>
-
-        <p>Telefon: 987988797897<br/>
-            E-Mail: info@segenskirche-eggartskirch.de</p>
+        dieser Website ist:</p> <p>Kirchengemeinde Eggartskirch<br/>
+        vertreten durch<br/>
+        Josef Vogler<br/>
+        Rolgenmoos 10/1<br/>
+        88263 Horgenzell<br/>
+        info@segenskirche-eggartskirch.de<br/>
+        M: +49 1523 66 323 44</p>
         <p>Verantwortliche Stelle ist die nat&uuml;rliche oder juristische Person, die allein oder gemeinsam mit
             anderen &uuml;ber die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z.&nbsp;B. Namen,
             E-Mail-Adressen o. &Auml;.) entscheidet.</p>

@@ -57,7 +57,7 @@ a {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: white;
+  background-color: rgba(255,255,255,0.6);
 
 }
 
@@ -70,6 +70,16 @@ margin: 10px 20px;
   color: var(--thirdColor);
 }
 
+
+.contactButtonsWrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: column;
+  width: fit-content;
+}
+
+
 @media screen and (min-width: 450px){
   .copyright{
     flex-direction: row;
@@ -78,12 +88,26 @@ margin: 10px 20px;
 
 }
 
+
+@media screen and (min-width: 430px){
+
+  .contactButtonsWrapper {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .socialIconStyle{
+    margin: 0 10px;
+  }
+}
 @media screen and (min-width: 768px) {
 
   .copyright {
     position: relative;
     justify-content: space-between;
   }
+
+
 }
 
 

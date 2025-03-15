@@ -1,7 +1,7 @@
 'use client'
 import Image from "next/image";
 
-import instaIcon from '@/assets/icons/SKE_Instagram.png'
+import instaIcon from '@/assets/icons/segenskirche-bei-instagram-icon.png'
 import Link from "next/link";
 
 const SocialIcon = ({iconType="insta"}: { iconType?: "insta" | "facebook" | "pinterest" }) => {
@@ -25,9 +25,9 @@ const SocialIcon = ({iconType="insta"}: { iconType?: "insta" | "facebook" | "pin
     }
 
 
-    return <Link href={ socialIconObject.link } target={ "_blank" } title={ socialIconObject.alt }><Image
-        src={ socialIconObject.src } alt={ socialIconObject.alt } width={ 30 } height={ 25 }
-        className={ "socialIconStyle" }/></Link>
+    return <Link href={ socialIconObject.link } target={ "_blank" } title={ socialIconObject.alt } className={ "socialIconStyle" }><Image
+        src={ socialIconObject.src } alt={ socialIconObject.alt } width={ 20 } height={ 20   }
+        /></Link>
 }
 
 export default SocialIcon

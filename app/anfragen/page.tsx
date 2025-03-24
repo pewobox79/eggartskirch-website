@@ -1,10 +1,10 @@
 import RequestPage from "@/pages/RequestPage";
-import {getContentByPage} from "@/utils/helper/contentHelper";
+import { getPageContent} from "@/utils/helper/contentHelper";
 
 const Booking =async ()=>{
 
-    const content = await getContentByPage("requests");
-    return <RequestPage content={content}/>
+    const pageContent = await getPageContent("AnfrageSeite");
+    return <RequestPage title={pageContent?.data?.title} body={pageContent?.data?.body}/>
 }
 
 export default Booking

@@ -1,11 +1,11 @@
 import EventPage from "@/pages/EventPage";
-import {getContentByPage} from "@/utils/helper/contentHelper";
+import {getPageContent} from "@/utils/helper/contentHelper";
 
 const Calendar =async ()=>{
 
 
-    const content = await getContentByPage("dates")
-    return <EventPage content={content} />
+    const pageContent = await getPageContent("Termine")
+    return <EventPage content={pageContent?.data} />
 }
 
 export default Calendar

@@ -1,10 +1,10 @@
 
 import Homepage from "@/pages/Homepage";
-import { getContentByPage} from "@/utils/helper/contentHelper";
+import { getPageContent} from "@/utils/helper/contentHelper";
 
 export default async function Home() {
 
-  const content = await getContentByPage("homepage");
+  const pageContent = await getPageContent("Homepage");
 
-  return <Homepage content={content ? content: {title:"", subTitle: [], body: []}}/>
+  return <Homepage content={pageContent ? pageContent.data: {title:"", subTitle: [], body: []}}/>
 }

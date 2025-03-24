@@ -27,8 +27,9 @@
 
 .hyperlink {
     font-size: 1.4rem;
+    color: var(--secondaryColor)
 }
 
 .hyperlink:hover{
-    color: var(--secondaryColor)
+    color: var(--thirdColor)
 }

@@ -11,12 +11,14 @@ const StrapiRenderRichTextHelper = ({blocks}: { blocks: [] }) => {
         const mainType = children?.type
         const listFormat = children?.format;
 
+        console.log("children", children)
+
         return children?.children?.map((child: {
             text: string,
             type: string,
             url: string,
             bold: boolean,
-            children: [{ text: string }]
+            children: [{ text: string, type: string, url: string , children: {text: string}[]}]
         }, index) => {
             const individualKeyExtension = Math.random() * 100
             switch (mainType) {
@@ -36,7 +38,7 @@ const StrapiRenderRichTextHelper = ({blocks}: { blocks: [] }) => {
                         return child?.children?.map((item) => {
 
                             return <Link className={ styles.hyperlink } href={ `${child.url}` }
-                                         key={ item.text + individualKeyExtension }>{ item.text }</Link>
+                                         key={ item.text + individualKeyExtension } target={child.url.includes("segenskirchecms") ? "_blank": "_self"}>{ item.text }</Link>
 
                         })
 
@@ -49,11 +51,21 @@ const StrapiRenderRichTextHelper = ({blocks}: { blocks: [] }) => {
                 case "list":
                     if (listFormat === "unordered") {
 
-                        return <ul key={ index + individualKeyExtension }
-                                   >{ child.children?.map((item, index) => (
-                            <li key={ index + individualKeyExtension } className={styles.listItem}
-                                >{ item.text }</li>
-                        )) }</ul>;
+                        return <ul key={ index + individualKeyExtension }>
+                            { child.children?.map((item:{type: string, text: string, url: string, children: {text: string}[]}, index:number) => {
+
+                                console.log("item", item)
+                                      if(item.type === "text"){
+                                          if(item.text?.length === 0){
+                                              return
+                                          }
+                                          return <li key={ index + individualKeyExtension } className={ styles.listItem }
+                                          >{ item.text } </li>
+                                      }
+
+                            return <Link href={item.url} key={ index + individualKeyExtension } target={item.url.includes("segenskirchecms") ? "_blank": "_self"} className={ styles.listItem }>
+                                <li>{item.children[0].text }</li></Link>
+                        }) }</ul>;
                     } else {
                         return <ol key={ index + individualKeyExtension }>{ child.children?.map((item, index) => (
                             <li key={ index + individualKeyExtension } className={styles.listItem}>{ item.text }</li>

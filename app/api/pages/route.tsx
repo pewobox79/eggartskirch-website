@@ -31,6 +31,9 @@ export async function POST(req: Request) {
             'Content-Type': 'application/json',
             'Authorization': `Bearer ${process.env.NEXT_PUBLIC_STRAPI_BEARER}`,
         },
+        next:{
+            revalidate: 10
+        }
 
     }
     try {

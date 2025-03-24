@@ -7,6 +7,7 @@ export function getContentByPage(contentType: ContentTypes) {
 
 }
 
+const URL = process.env.NEXT_PUBLIC_DOMAIN
 
 export async function getPageContent(pageType:"Homepage"|"Impressum" |"Datenschutz" |"KontaktSeite" |"AnfrageSeite"|"Termine"){
 
@@ -21,7 +22,7 @@ export async function getPageContent(pageType:"Homepage"|"Impressum" |"Datenschu
     }
     try{
 
-        const response = await fetch(`http://localhost:3000/api/pages/`, config);
+        const response = await fetch(`${URL}/api/pages/`, config);
         console.log("api response", response);
 
 

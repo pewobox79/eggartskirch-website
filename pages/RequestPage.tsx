@@ -5,9 +5,6 @@ import SocialIcon from "@/components/globals/SocialIcon";
 
 const RequestPage =({title, body}:{title: string, body:[]})=>{
 
-
-
-
     return <>
         <Headline text={title}/>
         <StrapiRenderRichTextHelper blocks={body}/>

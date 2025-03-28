@@ -17,7 +17,7 @@ const SocialIcon = ({iconType="insta"}: { iconType?: "insta" | "facebook" | "pin
             socialIconObject = {
                 src: instaIcon.src,
                 alt: "Segenskirche auf Instagram",
-                link: "https://www.instagram.com"
+                link: "https://www.instagram.com/segenskirche_eggartskirch?igsh=Y2Q3bmpoZGtmYjdu"
             }
             break;
         default:

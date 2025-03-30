@@ -30,7 +30,7 @@ export async function POST(req: Request) {
         const response = await fetch(`${ CMSURL }/api/${ typeSlug }`, {
             headers: {
                 'Content-Type': 'application/json',
-                'Authorization': `Bearer ${process.env.NEXT_PUBLIC_STRAPI_BEARER}`,
+                //'Authorization': `Bearer ${process.env.NEXT_PUBLIC_STRAPI_BEARER}`,
                 'Cache-Control': 'no-store, max-age=0',
             }
 

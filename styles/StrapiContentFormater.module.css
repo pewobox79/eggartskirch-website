@@ -3,7 +3,8 @@
     font-size: 1.3rem;
     line-height: 30px;
     padding-left: 20px;
-    color: var(--secondaryColor)
+    color: var(--secondaryColor);
+    list-style-type: none;
 }
 .quoteStyle {
     padding: 20px 0 40px 30px;

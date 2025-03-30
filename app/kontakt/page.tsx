@@ -1,6 +1,8 @@
 import ContactPage from "@/pages/ContactPage";
 import { getPageContent} from "@/utils/helper/contentHelper";
 
+export const dynamic = "force-dynamic";
+
 const Contact =async ()=>{
 
     const pageContent = await getPageContent("KontaktSeite");

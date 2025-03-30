@@ -1,9 +1,8 @@
-/*
-const CMSURL = process.env.NEXT_PUBLIC_STRAPI_URL;
+//const CMSURL = process.env.NEXT_PUBLIC_STRAPI_URL;
 
 
-export async function POST(req: Request) {
-    const body = await req.json();
+export async function POST() {
+    /*const body = await req.json();
 
     let typeSlug: string
     switch (body.pageType) {
@@ -46,6 +45,6 @@ export async function POST(req: Request) {
         console.log("error", err)
 
     }
+*/
 
-
-}*/
+}

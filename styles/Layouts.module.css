@@ -35,7 +35,7 @@
 }
 
 .mainContent{
-    padding: 0 10px;
+    padding: 0 20px;
     min-height: 800px;
 }
 
@@ -74,7 +74,7 @@
         width: 90%
     }
     .mainContent {
-
+        padding: 0 10px 0px 28px;
         min-height:50dvh;
         margin: auto
 

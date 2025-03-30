@@ -6,7 +6,7 @@
     color: var(--secondaryColor)
 }
 .quoteStyle {
-    padding: 40px 0 40px 30px;
+    padding: 20px 0 40px 30px;
     font-family: var(--font-pt-sans);
     font-size: 1.7rem;
     color: var(--secondaryColor)

@@ -32,7 +32,7 @@ export async function POST(req: Request) {
             'Authorization': `Bearer ${process.env.NEXT_PUBLIC_STRAPI_BEARER}`,
         },
         next:{
-            revalidate: 10
+            revalidate: 0
         }
 
     }

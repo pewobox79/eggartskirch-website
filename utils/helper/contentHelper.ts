@@ -7,22 +7,45 @@ export function getContentByPage(contentType: ContentTypes) {
 
 }
 
-const URL = process.env.NEXT_PUBLIC_DOMAIN
+const URL = process.env.NEXT_PUBLIC_STRAPI_URL
 
 export async function getPageContent(pageType:"Homepage"|"Impressum" |"Datenschutz" |"KontaktSeite" |"AnfrageSeite"|"Termine"){
 
+
+    let slug
+    switch (pageType) {
+        case "Homepage":
+            slug = `${ URL }/api/homepage?populate=*`
+            break;
+        case "Impressum":
+            slug = `${ URL }/api/impressum?populate=*`
+            break;
+        case "Datenschutz":
+            slug = `${ URL }/api/datenschutz?populate=*`
+            break;
+        case "KontaktSeite":
+            slug = `${ URL }/api/kontakt-seite?populate=*`
+            break;
+        case "AnfrageSeite":
+            slug = `${ URL }/api/anfrage-seite?populate=*`
+            break;
+        case "Termine":
+            slug = `${ URL }/api/termine?populate=*`
+            break;
+        default:
+            return
+    }
     const config ={
-        method: 'POST',
+        method: 'GET',
         headers: {
-            'Content-Type': 'application/json'
+            'Content-Type': 'application/json',
+            'Authorization': `Bearer ${process.env.NEXT_PUBLIC_STRAPI_BEARER}`
         },
-        body: JSON.stringify({
-            pageType:pageType
-        })
+        next:{revalidate: 0}
     }
     try{
 
-        const response = await fetch(`${URL}/api/pages/`, config);
+        const response = await fetch(`${slug}`, config);
         console.log("api response", response);
 
 

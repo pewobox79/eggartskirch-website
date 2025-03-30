@@ -1,3 +1,4 @@
+/*
 const CMSURL = process.env.NEXT_PUBLIC_STRAPI_URL;
 
 
@@ -47,4 +48,4 @@ export async function POST(req: Request) {
     }
 
 
-}
+}*/

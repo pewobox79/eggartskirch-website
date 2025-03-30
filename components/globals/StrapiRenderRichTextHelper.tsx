@@ -11,8 +11,6 @@ const StrapiRenderRichTextHelper = ({blocks}: { blocks: [] }) => {
         const mainType = children?.type
         const listFormat = children?.format;
 
-        console.log("children", children)
-
         return children?.children?.map((child: {
             text: string,
             type: string,
@@ -54,7 +52,6 @@ const StrapiRenderRichTextHelper = ({blocks}: { blocks: [] }) => {
                         return <ul key={ index + individualKeyExtension }>
                             { child.children?.map((item:{type: string, text: string, url: string, children: {text: string}[]}, index:number) => {
 
-                                console.log("item", item)
                                       if(item.type === "text"){
                                           if(item.text?.length === 0){
                                               return

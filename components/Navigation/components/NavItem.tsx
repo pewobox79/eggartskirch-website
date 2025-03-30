@@ -10,7 +10,6 @@ type NavItemType ={
 const NavItem =({title="Home", link="/"}:NavItemType)=>{
 
     const path = usePathname()
-    console.log("path:", path);
 
     const myStyle =`${styles.navItem} ${path === link ? styles.activeNavItem: ""}`
 

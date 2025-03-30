@@ -25,20 +25,16 @@ export async function POST(req: Request) {
             typeSlug = "homepage"
     }
 
-    const config ={
-        method: 'GET',
-        headers: {
-            'Content-Type': 'application/json',
-            'Authorization': `Bearer ${process.env.NEXT_PUBLIC_STRAPI_BEARER}`,
-        },
-        next:{
-            revalidate: 0
-        }
-
-    }
     try {
 
-        const response = await fetch(`${ CMSURL }/api/${ typeSlug }`, config);
+        const response = await fetch(`${ CMSURL }/api/${ typeSlug }`, {
+            headers: {
+                'Content-Type': 'application/json',
+                'Authorization': `Bearer ${process.env.NEXT_PUBLIC_STRAPI_BEARER}`,
+            },
+            next:{revalidate: 0}
+
+        });
         if (!response.ok) {
             return Response.json({msg: `failed to post data to strapi`})
         }

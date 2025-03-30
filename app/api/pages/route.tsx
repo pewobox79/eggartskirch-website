@@ -31,8 +31,8 @@ export async function POST(req: Request) {
             headers: {
                 'Content-Type': 'application/json',
                 'Authorization': `Bearer ${process.env.NEXT_PUBLIC_STRAPI_BEARER}`,
-            },
-            next:{revalidate: 0}
+                'Cache-Control': 'no-store, max-age=0',
+            }
 
         });
         if (!response.ok) {

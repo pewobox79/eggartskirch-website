@@ -1,4 +1,4 @@
-import ContactPage from "@/pages/ContactPage";
+import ContactPage from "@/pagesComponents/ContactPage";
 import { getPageContent} from "@/utils/helper/contentHelper";
 
 export const dynamic = "force-dynamic";

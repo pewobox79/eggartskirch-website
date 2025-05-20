@@ -1,4 +1,4 @@
-import RequestPage from "@/pages/RequestPage";
+import RequestPage from "@/pagesComponents/RequestPage";
 import { getPageContent} from "@/utils/helper/contentHelper";
 
 const Booking =async ()=>{

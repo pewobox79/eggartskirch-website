@@ -1,4 +1,4 @@
-import EventPage from "@/pages/EventPage";
+import EventPage from "@/pagesComponents/EventPage";
 import {getPageContent} from "@/utils/helper/contentHelper";
 
 const Calendar =async ()=>{
